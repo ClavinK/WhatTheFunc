@@ -1,0 +1,9 @@
+setup.py
+tests/test_core.py
+whatthefunc/__init__.py
+whatthefunc/core.py
+whatthefunc.egg-info/PKG-INFO
+whatthefunc.egg-info/SOURCES.txt
+whatthefunc.egg-info/dependency_links.txt
+whatthefunc.egg-info/requires.txt
+whatthefunc.egg-info/top_level.txt
