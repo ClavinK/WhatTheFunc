@@ -10,17 +10,17 @@ This library helps programmers understand what a function, method, or attribute 
 ## Installation
 
 ```bash
-pip install what-the-func
+pip install whatthefunc
 ```
 
 ## Usage
 
 ```python
-from what_the_func import WTF
+from whatthefunc import WTF
+from dotenv import load_dotenv # don't forget to import
 
-wtf = WTF("your api key")
-or
-set OPENAI_API_KEY as an environment variable and leave WTF() blank
+wtf = WTF("Hardcoded API key")
+# or set OPENAI_API_KEY as an environment variable and leave WTF() blank. (Preferred method)
 
 response = wtf.wtfunc("np.shape()")
 print(response)
@@ -32,6 +32,7 @@ print(response)
 - Python 3.7+
 - OpenAI API key
 - OpenAI
+- Python Dotenv
 
 ## License
 
